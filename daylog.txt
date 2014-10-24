@@ -1,4 +1,9 @@
 daylog file record my thinking about solving the program problems
 
 14/10/23
+@implement
 pro469：When I compile this cpp, Codeforces verdict it as error called RUNTIME_ERROR.
+After I check my code, finally I find that the return value of main function lead to this error.
+Personally, I think that int main() can return any integer that as a symbol to analyse the runtime error.But GNU 4.7 C++ compoler set return 0 as defalut value and -1 the failure one.Surely I try GNU 4.8 C++ or GNU 4.7 C++0x4 or visual studio 2008 or even visual studio 2005 which will not verdict my RUNTIME ERROR, confused, maybe I should learn much deeper about this point.
+@end
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
