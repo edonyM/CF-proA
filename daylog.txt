@@ -1,0 +1,4 @@
+daylog file record my thinking about solving the program problems
+
+14/10/23
+pro469：When I compile this cpp, Codeforces verdict it as error called RUNTIME_ERROR.
