@@ -1,25 +1,54 @@
-All the better methods to solve this problem are using int-array to record each integer input. For instance,
+ /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ #        .---.         .-----------  
+ #       /     \  __  /    ------    
+ #      / /     \(  )/    -----   (`-')  _ _(`-')              <-. (`-')_            
+ #     //////    '\/ `   ---      ( OO).-/( (OO ).->     .->      \( OO) )     .->   
+ #    //// / //  :   : ---      (,------. \    .'_ (`-')----. ,--./ ,--/  ,--.'  ,-.
+ #   // /   /  / `\/ '--         |  .---' '`'-..__)( OO).-. ' |   \ |  | (`-')'.'  /
+ #  //          //..\\          (|  '--.  |  |  ' |( _) | | | |  . '|  |)(OO \    / 
+ # ============UU====UU====      |  .--'  |  |  / : \|  |)| | |  |\    |  |  /   /) 
+ #             '//||\\`          |  `---. |  '-'  /  '  '-' ' |  | \   |  `-/   /`  
+ #               ''``            `------' `------'    `-----' `--'  `--'    `--'    
+ # ########################################################################################################
+ # 
+ # Author: edony - edonyzpc@gmail.com                 
+ # 
+ # twitter : @edonyzpc                                
+ # 
+ # Last modified: 2014-10-25 15:06
+ # 
+ # Filename: conclude.txt
+ # 
+ # Description: All Rights Are Reserved                 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/ 
+All the better methods to solve this problem are using int-array to record each integer input. 
+For instance,
+
 intput:
-4
-3 1 2 3
-2 2 4
+
+    4
+    3 1 2 3
+    2 2 4
+
 Running:
-int a[200]
-p: a[1]=1 a[2]=1 a[3]=1
-q: a[2]=1 a[4]=1
+
+    int a[200]
+    p: a[1]=1 a[2]=1 a[3]=1
+    q: a[2]=1 a[4]=1
+
 Check:
-for(int i=1;i<n;i++)
-{
-    if(0==a[i])cout<<"Oh, my keyboard!"<<endl;
-    return 0;
-}
-cout<<"I become the guy."<<endl;
+
+    for(int i=1;i<n;i++)
+    {
+        if(0==a[i])cout<<"Oh, my keyboard!"<<endl;
+        return 0;
+    }
+    cout<<"I become the guy."<<endl;
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-my method is compare each integer from 1 to n, if all match then output the "I become the guy."
-But facing different inputs, edge value like 0 for instance, I must have to treat it as a special one which is not a good idea to figure all boundary value out.
+My method is compare each integer from 1 to n, if all match then output the "I become the guy."But facing different inputs, edge value like 0 for instance, I must have to treat it as a special one which is not a good idea to figure all boundary value out.
 
 Conclusion:
-    when I have to treat some spesial values, this method can be better!
+    When I have to treat some spesial values, this method definitely can be better!
     
