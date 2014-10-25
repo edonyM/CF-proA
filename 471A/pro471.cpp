@@ -11,7 +11,6 @@ int main()
 	if(ctmp==-1)
 	{
 		cout<<"Alien"<<endl;
-		//return -1;
 	}
 	else
 	{
@@ -25,12 +24,9 @@ int main()
 		if(head[0]==head[1])
 		{
 			cout<<"Elephant"<<endl;
-			//return 1;
-		}
 		else 
 		{
 			cout<<"Bear"<<endl;
-			//return 1;
 		}
 	}
 }
@@ -44,7 +40,6 @@ int foursame(int *st)
 		if(k2==st[i])tmp2++;
 		if(k3==st[i])tmp3++;
 	}
-	//cout<<tmp1<<endl<<tmp2<<endl<<tmp3<<endl;
 	if(tmp1>=4)return k1;
 	if(tmp2>=4)return k2;
 	if(tmp3>=4)return k3;
