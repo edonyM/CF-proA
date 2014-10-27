@@ -99,7 +99,7 @@ int main()
         }
     }
     puts("Alien");
-    return 0;
+    return 0;//standard input and output lead to the main function return value must be the 0 and -1
 }
 ====================================================================================================================
 I try to record the input, but some special boundary value need to be treated specially. In its method, it applys int-array into it. 
