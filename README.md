@@ -12,6 +12,9 @@ Tips:
 
 #2.".cpp" is the method that I solve the problem using GNU C++ 4.7 compiler, and all the code are accepted by Codeforces.
 
-#.".txt" is the note about optimize and error I made when I try to figure it out.
+#3.".txt" is the note about optimize and error I made when I try to figure it out.
 
-#.logfile is the personal note about how to figure it out.
+#4.logfile is the personal note about how to figure it out.
+
+#5.directions are name as the serial numbers of problem and deeper_study direction is code skills accumulate
+
