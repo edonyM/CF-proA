@@ -1,0 +1,11 @@
+esiest way to solve the problem, just a and c are all even numbers
+#1 cin l r
+#2 is l a even number?
+#3 if YES, go to #4; if NO, l++
+#4 is l+2<=l+r ?
+#5 if YES,cout l l+1 l+2; if NO, cout -1
+
+BUT:
+    we can no get all the consistent arrays.
+
+When I try my method, it runs out of time. But I can get all the possibilities if you wanted.
