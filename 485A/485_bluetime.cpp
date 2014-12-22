@@ -40,10 +40,24 @@ void run()
 
 int main()
 {
-#ifdef LOCAL
-    //    freopen("case.txt","r",stdin);
-#endif
+//#ifdef LOCAL
+//    freopen("case.txt","r",stdin);
+//#endif
     while(cin>>a>>m)
-    run();
+        run();
     return 0;
 }
+
+
+/*
+ * #include <iostream>
+ * using namespace std;
+ *
+ * int a, m;
+ * int main()
+ * {
+ *     cin >> a >> m;
+ *     while (m % 2 == 0) m /= 2;
+ *     a % m ? cout << "No" : cout << "Yes";
+ * }
+ */
